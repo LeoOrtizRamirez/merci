@@ -6,7 +6,7 @@ export default function Footer() {
             <footer className="footer mt-auto pb-4">
                 <div className="container-fluid">
                     <div className="row align-items-center justify-content-lg-between">
-                        <div className="col-lg-6 mb-lg-0 mb-4">
+                        {/* <div className="col-lg-6 mb-lg-0 mb-4">
                         <div className="copyright text-center text-sm text-muted text-lg-start">
                             Agung © ,
                             made with <i className="fa fa-heart" /> by
@@ -29,7 +29,7 @@ export default function Footer() {
                             <a href="https://www.creative-tim.com/license" className="nav-link pe-0 text-muted" target="_blank">License</a>
                             </li>
                         </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </footer>
