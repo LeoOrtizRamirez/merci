@@ -353,7 +353,7 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0">COMPONENTE ESTRÁTEGICO</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text">COMPONENTE ESTRÁTEGICO</h6>
                                                 </div>
                                             </td>
                                             <td>
@@ -369,7 +369,7 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0">CANALES DE VENTA</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text">CANALES DE VENTA</h6>
                                                 </div>
                                             </td>
                                             <td>
@@ -385,7 +385,7 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0">MECÁNICA COMERCIAL</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text">MECÁNICA COMERCIAL</h6>
                                                 </div>
                                             </td>
                                             <td>
@@ -401,7 +401,7 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0">TRANSFERENCIA DE CONOCIMIENTO</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text">TRANSFERENCIA DE CONOCIMIENTO</h6>
                                                 </div>
                                             </td>
                                             <td>
@@ -417,7 +417,7 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0">MERCADEO</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text">MERCADEO</h6>
                                                 </div>
                                             </td>
                                             <td>
@@ -433,7 +433,7 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0">INFRAESTRUCTURA</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text">INFRAESTRUCTURA</h6>
                                                 </div>
                                             </td>
                                             <td>

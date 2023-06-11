@@ -6771,7 +6771,7 @@ function Dashboard() {
                           },
                           alt: ""
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h6", {
-                          className: "text-sm mb-0",
+                          className: "text-sm mb-0 categorias-text",
                           children: "COMPONENTE ESTR\xC1TEGICO"
                         })]
                       })
@@ -6807,7 +6807,7 @@ function Dashboard() {
                           },
                           alt: ""
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h6", {
-                          className: "text-sm mb-0",
+                          className: "text-sm mb-0 categorias-text",
                           children: "CANALES DE VENTA"
                         })]
                       })
@@ -6843,7 +6843,7 @@ function Dashboard() {
                           },
                           alt: ""
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h6", {
-                          className: "text-sm mb-0",
+                          className: "text-sm mb-0 categorias-text",
                           children: "MEC\xC1NICA COMERCIAL"
                         })]
                       })
@@ -6879,7 +6879,7 @@ function Dashboard() {
                           },
                           alt: ""
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h6", {
-                          className: "text-sm mb-0",
+                          className: "text-sm mb-0 categorias-text",
                           children: "TRANSFERENCIA DE CONOCIMIENTO"
                         })]
                       })
@@ -6915,7 +6915,7 @@ function Dashboard() {
                           },
                           alt: ""
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h6", {
-                          className: "text-sm mb-0",
+                          className: "text-sm mb-0 categorias-text",
                           children: "MERCADEO"
                         })]
                       })
@@ -6951,7 +6951,7 @@ function Dashboard() {
                           },
                           alt: ""
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h6", {
-                          className: "text-sm mb-0",
+                          className: "text-sm mb-0 categorias-text",
                           children: "INFRAESTRUCTURA"
                         })]
                       })
