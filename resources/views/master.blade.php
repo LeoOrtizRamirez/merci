@@ -20,7 +20,7 @@
 
     <script src="{{ mix('/js/app.js') }}" defer></script>
   </head>
-  <body class="g-sidenav-show   bg-gray-100">
+  <body class="g-sidenav-show   bg-dark">
     @inertia
     <!--   Core JS Files   -->
     <script src="/js/core/popper.min.js"></script>

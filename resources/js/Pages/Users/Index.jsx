@@ -33,19 +33,19 @@ export default function Index(props) {
     return (
         <>
             <div className="container-fluid py-4">
-                <Dialog trigger={addTrigger} title="Create New User"> 
+                <Dialog trigger={addTrigger} title="Crear Usuario"> 
                     <CreateUser close={addCloseTrigger}/>
                 </Dialog>
 
-                <Dialog trigger={UpdateTrigger} title={`Update User: ${state.name}`}> 
+                <Dialog trigger={UpdateTrigger} title={`Actualizar Usuario: ${state.name}`}> 
                     <EditUser model={state} close={UpdateCloseTrigger}/>
                 </Dialog>
 
-                <Dialog trigger={destroyTrigger} title={`Delete User: ${state.name}`}>
-                    <p>Are you sure to delete this user ?</p>
+                <Dialog trigger={destroyTrigger} title={`Eliminar Usuario: ${state.name}`}>
+                    <p>¿Estás segura de eliminar a este usuario?</p>
                     <div className="modal-footer">
-                        <button type="button" className="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="submit" onClick={destroyUser} className="btn bg-gradient-danger">Delete</button>
+                        <button type="button" className="btn bg-gradient-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" onClick={destroyUser} className="btn bg-gradient-danger">Eliminar</button>
                     </div>
                 </Dialog>
 
@@ -55,11 +55,11 @@ export default function Index(props) {
                             <div className="card-header pb-0">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <h6>Users table</h6>
+                                    <h6>Usuarios</h6>
                                 </div>
                                 <div className="col-md-6 d-flex justify-content-end">
-                                    <button onClick={addDialogHandler} type="button" className="btn bg-gradient-success btn-block mb-3" data-bs-toggle="modal" data-bs-target="#exampleModalMessage">
-                                        Create New User
+                                    <button onClick={addDialogHandler} type="button" className="btn bg-gradient-primary btn-block mb-3" data-bs-toggle="modal" data-bs-target="#exampleModalMessage">
+                                        Crear Usuario
                                     </button>
                                 </div>
                             </div>
@@ -70,11 +70,11 @@ export default function Index(props) {
                                     <thead>
                                         <tr>
                                             <th className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-centter">#</th>
-                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-left">Name</th>
-                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-left">Username</th>
-                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder text-left opacity-7 ps-2">Email</th>
-                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder text-left opacity-7 ps-2">Address</th>
-                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Actions</th>
+                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-left">Nombre</th>
+                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-left">Nombre de usuario</th>
+                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder text-left opacity-7 ps-2">Correo electrónico</th>
+                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder text-left opacity-7 ps-2">Dirección</th>
+                                            <th className="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Acciones</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -87,27 +87,27 @@ export default function Index(props) {
                                                             <img src="/img/team-2.jpg" className="avatar avatar-sm  me-3 " />
                                                         </div>
                                                         <div className="my-auto">
-                                                            <h6 className="mb-0 text-sm">{user.name}</h6>
+                                                            <h6 className="mb-0 text-sm large-text">{user.name}</h6>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className='text-left'>
-                                                    <p className="text-sm font-weight-bold mb-0">{user.username}</p>
+                                                    <p className="text-sm font-weight-bold mb-0 large-text">{user.username}</p>
                                                 </td>
                                                 <td className='text-left'>
-                                                    <span className="text-xs font-weight-bold">{user.email}</span>
+                                                    <span className="text-xs font-weight-bold large-text">{user.email}</span>
                                                 </td>
                                                 <td className="align-middle text-left">
                                                     <div className="d-flex align-items-center text-left">
-                                                        <span className="text-xs font-weight-bold mb-0">{user.address}</span>
+                                                        <span className="text-xs font-weight-bold mb-0 large-text">{user.address}</span>
                                                     </div>
                                                 </td>
                                                 <td className="align-middle text-center" width="10%">
                                                 <div>
-                                                    <button type="button" onClick={() => openUpdateDialog(user)} className="btn btn-vimeo btn-icon-only mx-2">
+                                                    <button type="button" onClick={() => openUpdateDialog(user)} className="btn btn-sm btn-vimeo btn-icon-only mx-2">
                                                         <span className="btn-inner--icon"><i className="fas fa-pencil-alt"></i></span>
                                                     </button>
-                                                    <button type="button" onClick={() => openDestroyDialog(user)} className="btn btn-youtube btn-icon-only">
+                                                    <button type="button" onClick={() => openDestroyDialog(user)} className="btn btn-sm btn-youtube btn-icon-only">
                                                         <span className="btn-inner--icon"><i className="fas fa-trash"></i></span>
                                                     </button>
                                                 </div>
@@ -135,4 +135,4 @@ export default function Index(props) {
     )
 }
 
-Index.layout = (page) => <Base key={page} children={page} title={"Manage Users"}/>
+Index.layout = (page) => <Base key={page} children={page} title={"Administrar Usuarios"}/>

@@ -23,25 +23,25 @@ export default function Sidebar() {
                         </Link>
                     </li>                    
                     <li className="nav-item mt-3">
-                        <h6 className="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Settings</h6>
+                        <h6 className="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Ajustes</h6>
                     </li>
                     <li className="nav-item">
                         <Link className={`${route().current('profile') && 'active'} nav-link`} href={route('profile')}>
                             <div className="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                                <i className="ni ni-single-02 text-dark text-sm opacity-10" />
+                                <i className="ni ni-single-02 text-light text-sm opacity-10" />
                             </div>
-                            <span className="nav-link-text ms-1">Profile</span>
+                            <span className="nav-link-text ms-1">Perfil</span>
                         </Link>
                     </li>
                     <li className="nav-item mt-3">
-                        <h6 className="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Manage</h6>
+                        <h6 className="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Administrar</h6>
                     </li>                    
                     <li className="nav-item">
                         <Link className={`${route().current('users.*') && 'active'} nav-link`} href={route('users.index')}>
                             <div className="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                                 <i className="fas fa-user-lock text-warning text-sm opacity-10" />
                             </div>
-                            <span className="nav-link-text ms-1">Users</span>
+                            <span className="nav-link-text ms-1">Usuarios</span>
                         </Link>
                     </li>
                     <li className="nav-item">
@@ -49,7 +49,7 @@ export default function Sidebar() {
                             <div className="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                             <i className="fas fa-sign-out-alt text-danger text-sm opacity-10"></i>
                             </div>
-                            <span className="nav-link-text ms-1">Log out</span>
+                            <span className="nav-link-text ms-1">Cerrar sesión</span>
                         </Link>
                     </li>
                 </ul>

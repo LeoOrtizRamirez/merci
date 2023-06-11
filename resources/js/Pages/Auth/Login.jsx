@@ -51,27 +51,27 @@ export default function Login({ errors }) {
                                         <img className="m-auto mb-4 d-flex" src="\img\logos\logo-merci.png" alt="" />
                                         <form role="form" onSubmit={submitHandler} noValidate>
                                             <div className="mb-3">
-                                                <input value={data.email} onChange={changeHandler} type="email" name='email' id='email' className="form-control form-control-lg" placeholder="Email" aria-label="Email" />
+                                                <input value={data.email} onChange={changeHandler} type="email" name='email' id='email' className="form-control form-control-lg" placeholder="Correo electrónico" aria-label="Email" />
                                                 {errors && (<div className='text-danger mt-1'>{errors.email}</div>)}
                                             </div>
                                             <div className="mb-3">
-                                                <input value={data.password} onChange={changeHandler} type="password" name='password' id='password' className="form-control form-control-lg" placeholder="Password" aria-label="Password" />
+                                                <input value={data.password} onChange={changeHandler} type="password" name='password' id='password' className="form-control form-control-lg" placeholder="Contraseña" aria-label="Password" />
                                                 {errors && (<div className='text-danger mt-1'>{errors.password}</div>)}
 
                                             </div>
                                             <div className="form-check form-switch">
                                                 <input value={data.remember} onChange={(e) => setData({ ...values, remember: e.target.checked })} name='remember' id='remember' className="form-check-input" type="checkbox" id="rememberMe" />
-                                                <label className="form-check-label" htmlFor="rememberMe">Remember me</label>
+                                                <label className="form-check-label" htmlFor="rememberMe">Recordarme</label>
                                             </div>
                                             <div className="text-center">
-                                                <button type="submit" className="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">Sign in</button>
+                                                <button type="submit" className="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">Iniciar sesión</button>
                                             </div>
                                         </form>
                                     </div>
                                     <div className="card-footer text-center pt-0 px-lg-2 px-1">
                                         <p className="mb-4 text-sm mx-auto">
-                                            Don't have an account? {' '}
-                                            <Link href={route('register')} className="text-primary text-gradient font-weight-bold">Sign up</Link>
+                                            No tienes una cuenta? {' '}
+                                            <Link href={route('register')} className="text-primary text-gradient font-weight-bold">Registrarse</Link>
                                         </p>
                                     </div>
                                 </div>
@@ -79,9 +79,9 @@ export default function Login({ errors }) {
                         </div>
                         <div className="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 end-0 text-center justify-content-center flex-column">
                             <div className="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center overflow-hidden" style={{ backgroundImage: 'url("/img/illustrations/quienes-somos-merci.webp")', backgroundSize: 'cover' }}>
-                                <span /* className="mask bg-gradient-primary opacity-6" */ />
-                                <h4 className="mt-5 text-white font-weight-bolder position-relative"></h4>
-                                <p className="text-white position-relative"></p>
+                                <span className="mask bg-gradient-primary opacity-6" />
+                                <h4 className="mt-5 text-white font-weight-bolder position-relative">MERCI</h4>
+                                <p className="text-white position-relative">GROUP EXPERINCE</p>
                             </div>
                         </div>
                     </div>
