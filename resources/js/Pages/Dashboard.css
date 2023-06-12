@@ -1,0 +1,13 @@
+.progress {
+    width: 100% !important;
+    height: 30px !important;
+}
+
+#categorias > tbody > tr td:nth-child(1) {
+    width: 500px;
+}
+
+h6.categorias-text {
+    width: 100%;
+    border: 1px solid #0028ef;
+}

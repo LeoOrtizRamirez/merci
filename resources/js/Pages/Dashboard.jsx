@@ -1,5 +1,6 @@
 import React from 'react'
 import Base from '../Layouts/Base'
+import './Dashboard.css';
 
 export default function Dashboard() {
     return (
@@ -353,13 +354,13 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0 categorias-text">COMPONENTE ESTRÁTEGICO</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text mx-2">COMPONENTE ESTRÁTEGICO</h6>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div className="d-flex">
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: 80 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div className="progress">
+                                                        <div className="progress-bar progress-bar-striped" role="progressbar" style={{ width: 80 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                     <h6 className="mb-0 px-4">80%</h6>
                                                 </div>
@@ -369,13 +370,13 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0 categorias-text">CANALES DE VENTA</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text mx-2">CANALES DE VENTA</h6>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div className="d-flex">
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: 20 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div className="progress">
+                                                        <div className="progress-bar progress-bar-striped" role="progressbar" style={{ width: 20 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                     <h6 className="mb-0 px-4">20%</h6>
                                                 </div>
@@ -385,13 +386,13 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0 categorias-text">MECÁNICA COMERCIAL</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text mx-2">MECÁNICA COMERCIAL</h6>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div className="d-flex">
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: 10 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div className="progress">
+                                                        <div className="progress-bar progress-bar-striped" role="progressbar" style={{ width: 10 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                     <h6 className="mb-0 px-4">10%</h6>
                                                 </div>
@@ -401,13 +402,13 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0 categorias-text">TRANSFERENCIA DE CONOCIMIENTO</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text mx-2">TRANSFERENCIA DE CONOCIMIENTO</h6>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div className="d-flex">
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: 25 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div className="progress">
+                                                        <div className="progress-bar progress-bar-striped" role="progressbar" style={{ width: 25 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                     <h6 className="mb-0 px-4">25%</h6>
                                                 </div>
@@ -417,13 +418,13 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0 categorias-text">MERCADEO</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text mx-2">MERCADEO</h6>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div className="d-flex">
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: 10 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div className="progress">
+                                                        <div className="progress-bar progress-bar-striped" role="progressbar" style={{ width: 10 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                     <h6 className="mb-0 px-4">10%</h6>
                                                 </div>
@@ -433,13 +434,13 @@ export default function Dashboard() {
                                             <td>
                                                 <div className="text-left px-2 d-flex">
                                                     <img src="/img/icons/icono-azul.png" style={{ width: 30 + 'px' }} alt="" />
-                                                    <h6 className="text-sm mb-0 categorias-text">INFRAESTRUCTURA</h6>
+                                                    <h6 className="text-sm mb-0 categorias-text mx-2">INFRAESTRUCTURA</h6>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div className="d-flex">
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: 50 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div className="progress">
+                                                        <div className="progress-bar progress-bar-striped" role="progressbar" style={{ width: 50 + '%' }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                     <h6 className="mb-0 px-4">50%</h6>
                                                 </div>
@@ -457,5 +458,4 @@ export default function Dashboard() {
         </>
     )
 }
-
-Dashboard.layout = (page) => <Base children={page} title={"Dashboard"} />
+Dashboard.layout = (page) => <Base children={page} title={"Dashboard"}/>

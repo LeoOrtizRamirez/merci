@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
+use Spatie\Permission\Models\Role;
+
 
 class DashboardController extends Controller
 {
@@ -14,6 +18,10 @@ class DashboardController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return inertia('Dashboard');
+        $user = auth()->user();
+        $role = $user ? $user->getRoleNames()->first() : null;
+        return inertia('Dashboard', [
+            "role" => $role
+        ]);
     }
 }

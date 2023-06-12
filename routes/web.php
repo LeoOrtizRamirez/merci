@@ -18,6 +18,16 @@ Route::middleware('auth')->group(function () {
     Route::apiResource('users', UserController::class);
 
     Route::get('profile', ProfileController::class)->name('profile');
+
+    Route::get('/api/user', function () {
+        $user = auth()->user();
+        $role = $user ? $user->getRoleNames()->first() : null;
+      
+        return response()->json([
+          'role' => $role
+        ]);
+      });
+
 });
 
 Route::middleware('guest')->group(function () {
